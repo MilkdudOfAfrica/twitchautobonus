@@ -1,7 +1,7 @@
 {
    "name":"Twitch Auto Bonus",
    "description":"Automatically redeems bonus Channel Points.",
-   "version":"1.0",
+   "version":"1.1",
    "manifest_version":2,
    "permissions":[
       "https://www.twitch.tv/*"
