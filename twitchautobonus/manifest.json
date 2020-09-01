@@ -1,28 +1,20 @@
 {
-   "name":"Twitch Auto Bonus",
-   "description":"Automatically redeems bonus Channel Points.",
-   "version":"1.2",
-   "manifest_version":2,
-   "permissions":[
-      "http://www.twitch.tv/*",
-      "https://www.twitch.tv/*"
-   ],
-   "content_scripts":[
-      {
-         "matches":[
-            "http://www.twitch.tv/*",
-            "https://www.twitch.tv/*"
-         ],
-         "run_at": "document_idle",
-         "js": [
-            "injected.js"
-         ],
-         "all_frames" :true
-      }
-   ],
-   "icons":{
-      "32":"32.png",
-      "48":"48.png",
-      "64":"64.png"
-   }
+  "name": "Twitch Auto Bonus",
+  "description": "Automatically redeems bonus Channel Points.",
+  "version": "1.3",
+  "manifest_version": 2,
+  "permissions": ["http://www.twitch.tv/*", "https://www.twitch.tv/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://www.twitch.tv/*", "https://www.twitch.tv/*"],
+      "run_at": "document_idle",
+      "js": ["injected.js"],
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "32": "32.png",
+    "48": "48.png",
+    "64": "64.png"
+  }
 }
